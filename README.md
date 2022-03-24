@@ -1,6 +1,6 @@
 # dmv-petri-dish.github.io
 
-### The will be written as a with vanilla HTML, CSS, JavaScript within a React.js project structure.
+### The website will be written as a vanilla HTML, CSS, JavaScript within a React.js project structure.
 
 
 #### Contributors will write HTML in the #main div in the public/index.html file

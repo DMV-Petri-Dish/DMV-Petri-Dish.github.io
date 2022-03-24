@@ -1,13 +1,14 @@
 # dmv-petri-dish.github.io
 
 ### The website will be written as a vanilla HTML, CSS, JavaScript within a React.js project structure.
+### I've installed bootstrap. So you can write bootstrap as explained in the boostrap documentation.
 
 
 #### Contributors will write HTML in the #main div in the public/index.html file
 
-#### Contributors will write CSS public/style.css file
+#### Contributors will write CSS in public/css/style.css file
 
-#### Contributors will write Javascript public/script.js file
+#### Contributors will write Javascript in public/js/script.js file
 
 
 

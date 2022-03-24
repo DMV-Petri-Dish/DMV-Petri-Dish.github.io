@@ -40,11 +40,42 @@
     <!-- ALL BODY HTML WILL BE WRITTEN IN #main -->
     
     <div id="main">
-      <div class="container-fluid p-5 bg-primary text-white text-center">
-        <h1>First Bootstrap Page</h1>
-        <p>Hello vanilla HTML CSS and JavaScript!</p>
-        <p id="clock"></p>
-      </div>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">DMV Petri Dish</a>
+
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#colonies" class="nav-link">The Colonies</a>
+              </li>
+              <li class="nav-item">
+                <a href="#discord" class="nav-link">Discord</a>
+              </li>
+              <li class="nav-item">
+                <a href="#resources" class="nav-link">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
     </div>
 
     
@@ -66,8 +97,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="%PUBLIC_URL%/js/bootstrap.bundle.min.js"></script>
-    <script src="%PUBLIC_URL%/js/bootstrap.esm.min.js"></script>
     <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
     <script src="%PUBLIC_URL%/js/script.js"></script>
   </body>
